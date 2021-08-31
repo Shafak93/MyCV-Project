@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color: gray;
+    
+}
+.container{
+    
+    max-width: 1000px;
+    background-color: #eee;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header{
+
+}
+.header-image{
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid black;
+    float: left;
+}
+/* .header-image:hover img{
+    background-image: url('image/shafak03.jpg');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid black;
+    
+} */
+.header-image-2{
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid black;
+    overflow: hidden;
+
+}
+h1,h2,h3,h4,h5,h6{
+color: #11999e;
+}
+.header-text{
+    float: left;
+    padding: 20px;
+    padding-top: 40px;
+}
+.header-contact{
+    float: right;
+}
+.header-contact a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.social{}
+.social ul{
+list-style: none;
+}
+.social ul li{
+    float: left;
+    margin: 5px 5px;
+}
+.social ul li a{
+    
+}
+.social ul li a:hover{
+    
+}
+
+
+
+.clear-both{
+    clear: both;
+}
+hr{
+    margin-top: 20px;
+    border: 2px solid gray;
+}
+/*===================================
+Profile Section
+=====================================*/
+.content{
+
+}
+.left-content{
+width: 30%;
+float: left;
+margin: 20px auto;
+}
+.right-content{
+width: 70%;
+float: left;
+margin: 20px auto;
+}
+.common-hr{
+    border: 1px solid gray;
+   border-bottom: none;
+  
+}
+/*===================================
+Skill Section
+=====================================*/
+
+.skill-conten{
+
+}
+.skill-left-content{
+width: 30%;
+float: left;
+margin: 20px auto;
+}
+.skill-right-content{
+width: 70%;
+float: left;
+margin: 20px auto;
+}
+
+
+/*====================
+Footer Section
+=======================*/
+.icons{
+overflow: hidden;
+}
+.icons ul{
+    
+}
+.icons ul li{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.icons ul li:last-child {
+    margin-left: 0;
+
+}
+.icons ul li a{
+    background-image: url('image/icons.png');
+    background-repeat: no-repeat;
+    width: 84px;
+    height: 84px;
+    display: inline-block;
+    border: 2px solid #777;
+    border-radius: 50%;
+    transition: .5s;
+}
+.icons ul li:hover:nth-child(1) a{
+    background-position: 0 -84px;
+}
+.icons ul li:nth-child(2) a{
+    background-position: -336px 0;
+}
+.icons ul li:hover:nth-child(2) a{
+    background-position: -336px -84px;
+}
+.icons ul li:nth-child(3) a{
+    background-position: -420px 0;
+}
+.icons ul li:hover:nth-child(3) a{
+    background-position: -420px -84px;
+}
+.icons ul li:nth-child(4) a{
+    background-position: -672px 0;
+}
+.icons ul li:hover:nth-child(4) a{
+    background-position: -672px -84px;
+}
