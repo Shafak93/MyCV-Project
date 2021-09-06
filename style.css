@@ -13,9 +13,13 @@
     margin: 0 auto;
     padding: 20px;
 }
-.header{
+/*
+Header Image Area
+================================================
+*/
+/* .header{
 
-}
+} */
 .header-image{
     width: 100px;
     height: 110px;
@@ -43,11 +47,19 @@
 h1,h2,h3,h4,h5,h6{
 color: #11999e;
 }
+/*
+Header Text Area
+=======================================
+*/
 .header-text{
     float: left;
     padding: 20px;
     padding-top: 40px;
 }
+/*
+Header Contact And Social Icon Area
+========================================
+*/
 .header-contact{
     float: right;
 }
@@ -59,7 +71,7 @@ color: #11999e;
     text-decoration: underline;
     color: blue;
 }
-.social{}
+/* .social{} */
 .social ul{
 list-style: none;
 }
@@ -67,15 +79,24 @@ list-style: none;
     float: left;
     margin: 5px 5px;
 }
-.social ul li a{
+/* .social ul li a{
     
-}
-.social ul li a:hover{
+} */
+/* .social ul li a:hover{
     
+} */
+
+@media screen and (min-width:280px) and (max-width:653px) {
+    .header-contact{
+        float: left;
+        padding: 20px;
+    }
 }
 
-
-
+/*
+Div Partion Area
+===================================
+*/
 .clear-both{
     clear: both;
 }
@@ -86,9 +107,9 @@ hr{
 /*===================================
 Profile Section
 =====================================*/
-.content{
+/* .content{
 
-}
+} */
 .left-content{
 width: 30%;
 float: left;
@@ -104,13 +125,33 @@ margin: 20px auto;
    border-bottom: none;
   
 }
+@media  screen and (min-width:280px) and (max-width:653px) {
+    
+    .left-content .skill-left-content{
+    width: 30%;
+    float: left;
+    margin: 20px auto;
+    }
+    .right-content{
+        width: 47%;
+        float: right;
+        margin: 20px auto;
+    }
+    
+    .common-hr{
+        border: 1px solid gray;
+       border-bottom: none;
+      
+    }
+    
+}
 /*===================================
 Skill Section
 =====================================*/
 
-.skill-conten{
+/* .skill-conten{
 
-}
+} */
 .skill-left-content{
 width: 30%;
 float: left;
@@ -121,7 +162,13 @@ width: 70%;
 float: left;
 margin: 20px auto;
 }
-
+@media screen and (min-width:280px) and (max-width:653px) {
+    .skill-right-content{
+        width: 47%;
+        float: right;
+        margin: 20px auto;
+        }
+}
 
 /*====================
 Footer Section
@@ -129,9 +176,9 @@ Footer Section
 .icons{
 overflow: hidden;
 }
-.icons ul{
+/* .icons ul{
     
-}
+} */
 .icons ul li{
     list-style: none;
     float: left;
